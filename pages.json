@@ -1,0 +1,116 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/home/home",
+			"style": {
+				"navigationBarTitleText": "乐居",
+				"navigationStyle": "custom",
+				"h5": {
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app"
+			}
+		}
+	    ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/find/find",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/mine",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/category/goodList/goodList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "乐居",
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTextStyle": "white",
+				// 打开下拉刷新
+                "enablePullDownRefresh": true,
+				"onReachBottomDistance": 80
+            }
+            
+        }
+        ,{
+            "path" : "pages/productDetail/productDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTextStyle": "white",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"uniIdRouter": {},
+	"tabBar": {
+		"selectedColor": "#333",
+		"list": [
+			{
+				"pagePath": "pages/home/home",
+				"iconPath": "./static/icons/home.png",
+				"selectedIconPath": "static/icons/home-active.png",
+				"text": "首页"
+			},
+			{
+				"pagePath": "pages/category/category",
+				"iconPath": "./static/icons/kind.png",
+				"selectedIconPath": "static/icons/kind-active.png",
+				"text": "分类"
+			},
+			{
+				"pagePath": "pages/find/find",
+				"iconPath": "./static/icons/find.png",
+				"selectedIconPath": "static/icons/find-active.png",
+				"text": "发现"
+			},
+			{
+				"iconPath": "./static/icons/mine.png",
+				"selectedIconPath": "static/icons/mine-active.png",
+				"text": "我的"
+			}
+		]
+	}
+}
