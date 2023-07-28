@@ -7,6 +7,9 @@ function request(config){
 			method:config.method,
 			data:config.data,
 			timeout:5000,
+			header:{
+				token:uni.getStorageSync('token')?uni.getStorageSync('token'):''
+			},
 			success(res){
 				resovle(res.data)
 			},

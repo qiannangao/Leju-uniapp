@@ -1,6 +1,6 @@
 <template>
 	<view>
-		
+		发现
 	</view>
 </template>
 

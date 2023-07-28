@@ -21,7 +21,10 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"h5": {
+					"titleNView": false
+				}
             }
             
         }
@@ -39,7 +42,10 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+				"navigationBarBackgroundColor": "#F1ECE7",
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
+				
             }
             
         }
@@ -73,6 +79,28 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F1ECE7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/register/register",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#F1ECE7",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+       
+        ,{
+            "path" : "pages/mine/changeInfo/changeInfo",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+				"navigationBarBackgroundColor": "#354E44",
                 "enablePullDownRefresh": false
             }
             
@@ -107,6 +135,7 @@
 				"text": "发现"
 			},
 			{
+				"pagePath": "pages/mine/mine",
 				"iconPath": "./static/icons/mine.png",
 				"selectedIconPath": "static/icons/mine-active.png",
 				"text": "我的"
