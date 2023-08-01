@@ -41,11 +41,11 @@
 				if(res.success){
 					uni.setStorageSync('token',res.data.token)
 					uni.showToast({
-						title:'您已登陆成功，1s后跳转至个人信息页'
+						title:'您已登陆成功，1s后跳转'
 					})
 					setTimeout(()=>{
-						uni.switchTab({
-							url:'/pages/mine/mine'
+						uni.navigateBack({
+							delta:1
 						})
 					},1000)
 				}

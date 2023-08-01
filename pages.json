@@ -33,7 +33,8 @@
             "style" :                                                                                    
             {
                 "navigationBarTitleText": "",
-                "enablePullDownRefresh": false
+                "enablePullDownRefresh": false,
+				"navigationStyle": "custom"
             }
             
         }
@@ -102,6 +103,96 @@
                 "navigationBarTitleText": "",
 				"navigationBarBackgroundColor": "#354E44",
                 "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/confirmOrder/confirmOrder",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/address",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/address/addressDetail/addressDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/find/articleDetail/articleDetail",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTextStyle": "white"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/articleCollect/articleCollect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "文章收藏",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTextStyle": "white"
+				
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/productCollect/productCollect",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+      
+        ,{
+            "path" : "pages/confirmOrder/pay/pay",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/cart/cart",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/mine/order/order",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"navigationBarBackgroundColor": "#354E44",
+				"navigationBarTextStyle": "white"
             }
             
         }

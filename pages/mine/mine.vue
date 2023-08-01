@@ -12,7 +12,7 @@
 			<image class="setting" src="../../static/icons/setting.png" mode=""></image>
 		</view>
 	</view>
-	<view class="order">
+	<navigator url="order/order" class="order">
 		<view class="order-title">我的订单</view>
 		<view class="order-line"></view>
 		<view class="order-content">
@@ -37,21 +37,21 @@
 		<view class="text">售后</view>
 		</view>
 		</view>
-	</view>
+	</navigator>
 	<view class="more">
 		
-		<view class="like content">
+		<navigator url="productCollect/productCollect" class="like content">
 			<image class="img" src="../../static/icons/save.png" mode=""></image>
 		<view class="text">商品收藏</view>
-		</view>
+		</navigator>
 		<view class="brand content">
 			<image class="img" src="../../static/icons/brand.png" mode=""></image>
 		<view class="text">品牌</view>
 		</view>
-		<view class=" article content">
+		<navigator url="articleCollect/articleCollect" class=" article content">
 			<image class="img" src="../../static/icons/article.png" mode=""></image>
 		<view class="text">文章收藏</view>
-		</view>
+		</navigator>
 		<view class="address content">
 			<image class="img" src="../../static/icons/address.png" mode=""></image>
 		<view class="text">地址</view>
@@ -60,10 +60,10 @@
 			<image class="img" src="../../static/icons/card.png" mode=""></image>
 		<view class="text">卡包</view>
 		</view>
-		<view class="cart content">
+		<navigator url="cart/cart" class="cart content">
 			<image class="img" src="../../static/icons/cart2.png" mode=""></image>
 		<view class="text">购物车</view>
-		</view>
+		</navigator>
 		<view class="contact content">
 			<image class="img" src="../../static/icons/kf.png" mode=""></image>
 		<view class="text">联系客服</view>
@@ -113,7 +113,7 @@ import mixin from '../../mixins/index.js'
 			async getUserInfoList(){
 				const res=await getUserInfo()
 				console.log('getUserInfo',res);
-				this.avatar=res.data.userInfo.icon
+		this.avatar=res.data.userInfo.icon
 		this.username=res.data.userInfo.username
 		this.nickname=res.data.userInfo.nickname
 			},

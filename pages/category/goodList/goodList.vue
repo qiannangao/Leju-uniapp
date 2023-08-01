@@ -4,8 +4,8 @@
 			<view @tap="tabChange(index)" class="title-item" v-for="(item,index) in tabbarList" :key="item.id">
 				<view class="title-name" :class="current==index?'active':''">{{item.name}}</view>
 		        <view v-if="index==1||index==2" class="arrow">
-		               	<uni-icons :color="current==index&&item.status==='up'?'#f00':'#fff'" type="top" size="20"></uni-icons>
-                        <uni-icons :color="current==index&&item.status==='bottom'?'#f00':'#fff'" type="bottom" size="20"></uni-icons>
+		               	<uni-icons :color="current==index&&item.status==='up'?'#f00':'#fff'" type="arrowup" size="15"></uni-icons>
+                        <uni-icons :color="current==index&&item.status==='bottom'?'#f00':'#fff'" type="arrowdown" size="15"></uni-icons>
 
 		</view>
 			</view>
@@ -196,11 +196,11 @@ line-height: 60rpx;
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		.uniui-top::before{
+		.uni-icons:nth-child(1){
 			position: absolute;
 			top: -6rpx;
 		}
-		.uniui-bottom::before{
+		.uni-icons:nth-child(2){
 			position: absolute;
 			top: 14rpx;
 		}

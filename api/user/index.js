@@ -30,4 +30,25 @@ function updateInfo(data){
 		data
 	})
 }
-export {register,login,getUserInfo,updateInfo}
+// 获取全部订单
+function findAllOrders(){
+	return request({
+		url:'/lejuClient/order/findAllOrders',
+		
+	})
+}
+// 退单
+function orderReturnApplys(){
+	return request({
+		url:'/lejuClient/orderReturn/orderReturnApplys',
+		
+	})
+}
+// 取消订单
+function cancelOrder(orderId){
+	return request({
+		url:`/lejuClient/order/cancelOrder/${orderId}`,
+		method:'post'
+	})
+}
+export {register,login,getUserInfo,updateInfo,findAllOrders,orderReturnApplys,cancelOrder}
