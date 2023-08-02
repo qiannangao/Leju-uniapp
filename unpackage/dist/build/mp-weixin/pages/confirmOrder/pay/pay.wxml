@@ -1,0 +1,1 @@
+<view><view class="title">请选择支付方式</view><button data-event-opts="{{[['tap',[['getPayList',[1]]]]]}}" bindtap="__e">支付宝支付</button><button data-event-opts="{{[['tap',[['getPayList',[2]]]]]}}" bindtap="__e">微信支付</button></view>

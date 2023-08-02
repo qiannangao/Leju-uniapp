@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "",
+  "enablePullDownRefresh": false,
+  "usingComponents": {
+    "evan-checkbox": "/components/evan-checkbox/evan-checkbox"
+  }
+}
